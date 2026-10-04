@@ -1,15 +1,8 @@
 name: vinil
-description: Central de música pessoal - local + Spotify + YouTube (APIs oficiais).
+description: Central de musica pessoal.
 publish_to: none
-environment: {sdk: ">=3.4.0 <4.0.0"}
+environment:
+  sdk: ">=3.4.0 <4.0.0"
 dependencies:
-  flutter: {sdk: flutter}
-  flutter_riverpod: ^2.5.0        # estado
-  just_audio: ^0.9.38             # player local (Android/iOS)
-  just_audio_media_kit: ^2.0.5    # backend Windows/Linux
-  audio_service: ^0.18.13         # tela de bloqueio, fones, Bluetooth, SMTC
-  drift: ^2.18.0                  # banco SQLite (biblioteca, stats, playlists)
-  sqlite3_flutter_libs: ^0.5.0
-  palette_generator: ^0.3.3       # cores dinâmicas da capa
-  file_picker: ^8.0.0
-  shared_preferences: ^2.2.0
+  flutter:
+    sdk: flutter
